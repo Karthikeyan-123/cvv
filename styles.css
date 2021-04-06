@@ -1,0 +1,149 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 100px;
+}
+
+body{
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.image{
+  height: 80%;
+  margin-top: 50px;
+  margin-left: 70px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 20px 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  color: rgb(187, 238, 238);
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+ul a:hover{
+  color: antiquewhite;
+}
+
+.checks{
+  text-align: center;
+ font-family: cursive;
+}
+
+.checks i{
+  color: red;
+}
+.checks i:hover{
+  color: #ff4c68;
+}
+
+
+#features{
+  padding: 49px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+#testimonials{
+  text-align: center;
+  background-color:  #ff4c68;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.testimonial-image{
+  width: 150px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 5% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: cursive;
+  font-weight: bold;
+  line-height: 50px;
+}
+#cta h3{
+  max-width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#footer{
+  text-align: center;
+  padding-top: 40px;
+}
+#footer .linker{
+  margin-right: 10px;
+}
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+  h1{
+    max-width: 60%;
+    margin-left: 20%;
+    line-height: 1;
+    margin-top: 20px;
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
